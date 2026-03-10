@@ -1,0 +1,4 @@
+module Half_Adder(input a,b, output c,s);
+xor x1(s,a,b);
+or a1(c,a,b);
+endmodule
